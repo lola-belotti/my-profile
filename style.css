@@ -1,0 +1,120 @@
+/*Colors and fonts*/
+
+body {
+ background-color: F5F5F7;
+ color: 705C53;
+ font-family: "Lora", serif;
+ font-size: 16px;
+}
+
+h1, h2 { 
+   font-family: "Roboto", sans-serif;
+ }
+
+h1 {
+
+	color: C75B7A;
+	font-weight: 900;
+	letter-spacing: 1px;
+	font-size: 30px;
+}
+
+h2 {
+
+	color: C75B7A;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-weight: 500
+}
+
+a { 
+  text-decoration: none;
+  color: #6482AC;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+ }
+
+ a:hover { 
+  color: white;
+  font-weight: bold;
+  }
+
+  /*Custom design with class*/ 
+
+  .container {
+  	width: 700px;
+  	margin: 40px auto;
+  }
+
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+ background-color: white;
+ padding: 40px;
+ box-shadow: Opx 10px 30px rgba(0, 0, 0, 0.5);
+ border-radius: 10px;
+ margin: 20px 0px;
+ text-align: center;
+}
+
+.image-circle{
+	border-radius: 50%;
+	object-fit: cover;
+	overflow: hidden;
+	object-position: center top;
+}
+
+.btn-pink {
+   background-color: C75B7A;
+   color: white;
+   padding: 10px 15px;
+   border-radius: 4px;
+}
+
+.btn-pink:hover {
+	background-color: #6482AC;
+   color: white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+.list-horizontal i {
+	font-size: 50px;
+	color: C75B7A;
+}
+
+.list-horizontal i:hover {
+	font-size: 50px;
+	color: #6482AC;
+}
+
+#introduction p {
+	margin: 40px;
+}
+
+
+
+
+
+
+
